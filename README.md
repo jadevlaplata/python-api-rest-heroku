@@ -7,15 +7,19 @@ Necesitaremos 4 archivos
 - index.py (código fuente de la api-restful)
 
 - Procfile (despliega un servidor gunicorn apuntando a index.py
-   ```bash
- web: gunicorn -b 0.0.0.0:$PORT index:app
-```
+
+     
+
+> web: gunicorn -b 0.0.0.0:$PORT index:app
+
 
 - requeriments.txt (define las dependencias  a instalar en el cloud via pip)
-```bash Flask #framework para desarrollo de la api
-gunicorn #servidor http
-```
+
+> Flask #framework para desarrollo de la api 
+> 
+> gunicorn #servidor http
+
 
 - runtime.txt define versión de python
-```bash python-3.10.0
-```
+
+> python-3.10.0
