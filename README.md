@@ -12,12 +12,10 @@ Necesitaremos 4 archivos
 ```
 
 - requeriments.txt (define las dependencias  a instalar en el cloud via pip)
-```bash
-Flask #framework para desarrollo de la api
+```bash Flask #framework para desarrollo de la api
 gunicorn #servidor http
 ```
 
 - runtime.txt define versión de python
-```bash
-python-3.10.0
+```bash python-3.10.0
 ```
